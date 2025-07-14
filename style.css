@@ -1,12 +1,18 @@
 body {
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
     background-color: #111;
     color: #f5f5f5;
+=======
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+>>>>>>> c499900 (modificación del archivo css)
     margin: 0;
     padding: 20px;
 }
 
 h1 {
+<<<<<<< HEAD
     color: #ff4c4c;
     text-align: center;
 }
@@ -56,3 +62,43 @@ li p {
     font-size: 1em;
     color: #ccc;
 }
+=======
+    color: #00ffff;
+    text-align: center;
+}
+
+.concepto {
+    background-color: #2c2c2c;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #00ffff;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2c2c2c;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #005f73;
+}
+
+tr:hover {
+    background-color: #3a3a3a;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 0.9em;
+    color: #999;
+    padding-top: 10px;
+}
+>>>>>>> c499900 (modificación del archivo css)
