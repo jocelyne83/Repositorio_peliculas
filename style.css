@@ -29,3 +29,10 @@ button {
   cursor: pointer;
   margin-top: 5px;
 }
+
+.movie-img {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
