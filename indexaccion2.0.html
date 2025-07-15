@@ -4,64 +4,35 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Películas de Acción</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background-color: #111;
-      color: #fff;
-    }
-    h1 {
-      color: #e50914;
-    }
-    .movie {
-      margin-bottom: 20px;
-      border-bottom: 1px solid #444;
-      padding-bottom: 10px;
-    }
-    .description {
-      display: none;
-      margin-top: 5px;
-      color: #ccc;
-    }
-    button {
-      background-color: #e50914;
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      cursor: pointer;
-      margin-top: 5px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <h1>Películas de Acción</h1>
 
-  <div class="movie">
-    <h2>John Wick</h2>
-    <button onclick="toggleDescription(this)">Ver descripción</button>
-    <p class="description">Un asesino retirado regresa al mundo del crimen para vengarse.</p>
+  <!-- Botón global para mostrar/ocultar todas las descripciones -->
+  <button onclick="toggleAllDescriptions()">Mostrar/Ocultar Todas</button>
+
+  <div id="movie-list">
+    <div class="movie">
+      <h2>John Wick</h2>
+      <button onclick="toggleDescription(this)">Ver descripción</button>
+      <p class="description">Un asesino retirado regresa al mundo del crimen para vengarse.</p>
+    </div>
+
+    <div class="movie">
+      <h2>Mad Max: Furia en el camino</h2>
+      <button onclick="toggleDescription(this)">Ver descripción</button>
+      <p class="description">En un futuro post-apocalíptico, Max ayuda a un grupo de mujeres a escapar de un tirano.</p>
+    </div>
+
+    <div class="movie">
+      <h2>Gladiador</h2>
+      <button onclick="toggleDescription(this)">Ver descripción</button>
+      <p class="description">Un general romano busca venganza tras ser traicionado y esclavizado.</p>
+    </div>
   </div>
 
-  <div class="movie">
-    <h2>Mad Max: Furia en el camino</h2>
-    <button onclick="toggleDescription(this)">Ver descripción</button>
-    <p class="description">En un futuro post-apocalíptico, Max ayuda a un grupo de mujeres a escapar de un tirano.</p>
-  </div>
-
-  <div class="movie">
-    <h2>Gladiador</h2>
-    <button onclick="toggleDescription(this)">Ver descripción</button>
-    <p class="description">Un general romano busca venganza tras ser traicionado y esclavizado.</p>
-  </div>
-
-  <script>
-    function toggleDescription(button) {
-      const desc = button.nextElementSibling;
-      desc.style.display = desc.style.display === "none" ? "block" : "none";
-    }
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
