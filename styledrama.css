@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --blue:#2980b9;
+    --black:#333;
+    --white:#fff;
+    --light-color:#777;
+    --light-bg:#eee;
+    --box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+* {
+    font-family: 'Caveat', cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track{
+    background: var(--blue);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--white);
+    border-radius: 50px;
+}
+
+.container{
+    padding: 100px 9%;
+    background: linear-gradient(45deg, deeppink, var(--blue));
+    display: flex;
+}
+
+.container .profile{
+    flex: 1 1 400px;
+    background: var(--white);
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.container .information{
+    flex: 1 1 1000px;
+    background: var(--white);
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
