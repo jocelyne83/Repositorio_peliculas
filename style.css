@@ -1,18 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-<<<<<<< HEAD
     background-color: #111;
     color: #f5f5f5;
-=======
     background-color: #1a1a1a;
     color: #e0e0e0;
->>>>>>> c499900 (modificación del archivo css)
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-<<<<<<< HEAD
     color: #ff4c4c;
     text-align: center;
 }
@@ -62,10 +58,14 @@ li p {
     font-size: 1em;
     color: #ccc;
 }
-=======
+
+/* If you intended to style something with color: #00ffff and text-align: center, add a selector here, for example: */
+/*
+.some-class {
     color: #00ffff;
     text-align: center;
 }
+*/
 
 .concepto {
     background-color: #2c2c2c;
@@ -101,4 +101,3 @@ caption {
     color: #999;
     padding-top: 10px;
 }
->>>>>>> c499900 (modificación del archivo css)
